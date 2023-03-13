@@ -3,15 +3,21 @@ import Sidenav from './sideBar';
 import { BsArrowUp, BsArrowDown, BsChevronDown, BsArrowRight, BsCheckCircle } from 'react-icons/bs'
 import { BiCopy } from 'react-icons/bi'
 import { TbCalendarStats } from 'react-icons/tb'
-
-
-
+import christian from '../images/christian.png'
+import amen from '../images/Amen.png'
+import emmanuel from '../images/Emmanuel.png'
+import somo from '../images/somo.png'
+import oscar from '../images/oscar.png'
+import bob from '../images/Bob.png'
+import janet from '../images/Janet.png'
+import frank from '../images/Frank.png'
+import onyinye from '../images/Onyinye.png'
 
 const HomePage = () =>{
     return(
         <div className='page'>
             <Sidenav />
-            <div className='content'>
+            <div className='homePagecontent'>
                 <div className='contentHeader'>
                     <div className='header-box'>
                         <h2>Goals</h2>
@@ -94,14 +100,32 @@ const HomePage = () =>{
                             </div>
                             <div className='performance-grid-content'>
                                 <div className='performance-grid-column'>
-                                    <p>Christian Apithy</p>
-                                    <p>Amen Dossou-Yovo</p>
-                                    <p>Emmanuel Sossou</p>
-                                    <p>Somogyi Adrián</p>
-                                    <p>Oscar Kossou</p>
-                                    <p>Oscar Kossou</p>
+                                    <div>
+                                        <img src={christian}/>
+                                        <p>Christian Apithy</p>
+                                    </div>
+                                    <div>
+                                        <img src={amen}/>
+                                        <p>Amen Dossou-Yovo</p>
+                                    </div>
+                                    <div>
+                                        <img src={emmanuel}/>
+                                        <p>Emmanuel Sossou</p>
+                                    </div>
+                                    <div>
+                                        <img src={somo}/>
+                                        <p>Somogyi Adrián</p>
+                                    </div>
+                                    <div>
+                                        <img src={oscar}/>
+                                        <p>Oscar Kossou</p>
+                                    </div>
+                                    <div>
+                                        <img src={oscar}/>
+                                        <p>Oscar Kossou</p>
+                                    </div>
                                 </div>
-                                <div className='performance-grid-column'>
+                                <div className='performance-grid-column middle'>
                                     <p>Your company is truly upstanding and is....</p>
                                     <p>It's the perfect solution for our business...</p>
                                     <p>It's the perfect solution for our business...</p>
@@ -117,6 +141,51 @@ const HomePage = () =>{
                                     <p>1 Jan 2022</p>
                                     <p>1 Jan 2022</p>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className='homeFooter'>
+                    <div className='homeFooter-header'>
+                        <h2>360 Appraisal</h2>
+                        <p>Goal Review</p>
+                        <p>Performance Review</p>
+                    </div>
+                    <div className='homeFooter-grid'>
+                        <div className='analysts'>
+                            <img src={frank}/>
+                            <div>
+                                <p>Due: Feb 2023</p>
+                                <h2>Frank Cortage</h2>
+                                <p>Senior System Analyst</p>
+                                <h3>Review Now</h3>
+                            </div>
+                        </div>
+                        <div className='analysts'>
+                            <img src={bob}/>
+                            <div>
+                                <p>Due: Mar 2023</p>
+                                <h2>Bob Holland</h2>
+                                <p>Senior System Analyst</p>
+                                <h3>Review Now</h3>
+                            </div>
+                        </div>
+                        <div className='analysts'>
+                            <img src={onyinye}/>
+                            <div>
+                                <p>Due: Feb 2023</p>
+                                <h2>Onyinye Evans</h2>
+                                <p>Senior System Analyst</p>
+                                <h3>Review Now</h3>
+                            </div>
+                        </div>
+                        <div className='analysts'>
+                            <img src={janet}/>
+                            <div>
+                                <p>Due: Feb 2023</p>
+                                <h2>Janet Evalyn</h2>
+                                <p>Senior System Analyst</p>
+                                <h3>Review Now</h3>
                             </div>
                         </div>
                     </div>

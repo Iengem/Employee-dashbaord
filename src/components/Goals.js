@@ -2,6 +2,20 @@ import React from 'react'
 import Sidenav from './sideBar'
 import Navbar from './navBar'
 import { BsArrowUp, BsArrowDown, BsChevronDown, BsCheckCircle } from 'react-icons/bs'
+import christian from '../images/christian.png'
+import girlfirstrow from '../images/girlfirstrow.png'
+import yellowbg from '../images/yellowbg.png'
+import plusiconbg from '../images/plus-icon.png'
+import plusicon from '../images/Vector.png'
+import secondrowgirl from '../images/2ndrowgirl.png'
+import thirdrowman from '../images/3rdrowman.png'
+import fourthrowman from '../images/4throwfirst.png'
+import fourthrowman1 from '../images/4throwsecond.png'
+import fifthrowman from '../images/5throwman.png'
+import seventhrowman from '../images/7throwman.png'
+import seventhrowwoman from '../images/7throw-woman.png'
+import eighthrowman from '../images/8throwman.png'
+
 
 const goals = () =>{
     return(
@@ -88,7 +102,16 @@ const goals = () =>{
                                     <p>3 Mar 2022</p>
                                     <p>1 Jan 2022</p>
                                     <p>1 Jan 2022</p>
-
+                                </div>
+                                <div className='goalReviews'>
+                                    <div><img src={christian}/><img src={girlfirstrow}/><img src={yellowbg}/><div className='plus-icon'><img src={plusiconbg}/><img className='plus-vector'src={plusicon}/></div></div>
+                                    <div><img src={christian}/><img src={secondrowgirl}/><img src={yellowbg}/><div className='plus-icon'><img src={plusiconbg}/><img className='plus-vector'src={plusicon}/></div></div>
+                                    <div><img src={thirdrowman}/><img src={yellowbg}/><div className='plus-icon'><img src={plusiconbg}/><img className='plus-vector'src={plusicon}/></div></div>
+                                    <div><img src={fourthrowman}/><img src={fourthrowman1}/><div className='plus-icon'><img src={plusiconbg}/><img className='plus-vector'src={plusicon}/></div></div>
+                                    <div><img src={fifthrowman}/><img src={yellowbg}/><div className='plus-icon'><img src={plusiconbg}/><img className='plus-vector'src={plusicon}/></div></div>
+                                    <div><img src={christian}/><img src={girlfirstrow}/><div className='plus-icon'><img src={plusiconbg}/><img className='plus-vector'src={plusicon}/></div></div>
+                                    <div><img src={seventhrowman}/><img src={seventhrowwoman}/><img src={yellowbg}/><div className='plus-icon'><img src={plusiconbg}/><img className='plus-vector'src={plusicon}/></div></div>
+                                    <div><img src={eighthrowman}/><img src={girlfirstrow}/><img src={yellowbg}/><div className='plus-icon'><img src={plusiconbg}/><img className='plus-vector'src={plusicon}/></div></div>
                                 </div>
                             </div>
                         </div>
