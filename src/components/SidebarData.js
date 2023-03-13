@@ -1,5 +1,5 @@
 import React from 'react'
-import { BsBarChartLine, BsThreeDotsVertical, BsPeople } from 'react-icons/bs';
+import { BsBarChartLine, BsPeople } from 'react-icons/bs';
 import { SlTrophy } from 'react-icons/sl';
 import { IoSettingsOutline } from 'react-icons/io5';
 import { TbWallet } from 'react-icons/tb';
@@ -14,21 +14,21 @@ export const sideBarData = [
     {
         icon: <SlTrophy className='home'/>,
         title: 'Goals',
-        path: '/Goals.js'
+        path: '/Goals'
     },
     {
         icon: <BsBarChartLine className='home'/>,
         title: 'Performance',
-        path: '/performance.js'
+        path: '/performance'
     },
     {
         icon: <IoSettingsOutline className='home'/>,
         title: 'Settings',
-        path: '/settings.js'
+        path: '/settings'
     },
     {
         icon: <TbWallet className='home'/>,
         title: 'Wallet',
-        path: '/wallet.js'
+        path: '/wallet'
     }
 ]

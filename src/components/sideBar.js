@@ -1,17 +1,16 @@
 import React from 'react';
 import { sideBarData } from './SidebarData';
 import {BsThreeDotsVertical} from 'react-icons/bs';
+import { Link } from 'react-router-dom'
 
 const Sidenav = () => {
     return(
         <div className='sidebar'>
             {sideBarData.map((item, key) =>{
                 return(
-                    <div className='sidebarItem'k id={window.location.pathname === item.path ? 'selected' : ''} onClick={() =>{
-                        window.location.pathname = item.path
-                    }}>
+                    <Link className='sidebarItem'k id={window.location.pathname === item.path ? 'selected' : ''} to={ item.path }>
                         {item.icon}<h2>{item.title}</h2>
-                    </div>
+                    </Link>
                 )
             })}
             <div className='Admin'>
