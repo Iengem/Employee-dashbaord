@@ -409,6 +409,7 @@ nav{
 }
 .goalText{
     padding: 20px 30px;
+    padding-top: 0;
     display: grid;
     grid-template-columns: 80% 20%;
     background-color: white;
@@ -422,10 +423,21 @@ nav{
     font-weight: 400;
     color: #4A4A4A;
 }
+.goalText .goalTitle{
+    padding-top: 20px;
+}
 .goalTitle{
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+.goalTitle div{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.ratings-grid-content .goalTitle:nth-child(1){
+    gap:15px;
 }
 .performanceCont{
     display: flex;
@@ -538,6 +550,8 @@ nav{
 .goals-grid-content{
     display: grid;
     grid-template-columns: 35% 23% repeat(3, 1fr);
+    align-items: flex-start;
+    align-content: flex-start;
     padding: 20px;
     padding-bottom: 5px;
     background-color: white;
@@ -546,7 +560,8 @@ nav{
     display: grid;
     grid-template-columns: repeat(3, 1fr) 26% 1fr;
     padding: 20px;
-    padding-bottom: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-color: white;
 }
 .employeePerformance{
@@ -574,4 +589,91 @@ nav{
 .plus-vector{
     position: absolute;
     left: 26%;
+}
+
+/* .settings */
+
+.settingsAdmin{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
+.settingsAdmin h2{
+    font-size: 48px;
+    line-height: 64.8px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5157ED;
+    width: 111px;
+    height: 111px;
+    font-weight: 500;
+    color: white;
+}
+.settingsAdmin h1{
+    font-size: 32px;
+    line-height: 43.65px;
+    font-weight: 500;
+}
+.settingsAdmin p{
+    font-size: 24px;
+    line-height: 33px;
+    color: #555555;
+}
+.settingsContent{
+    width: 85%;
+    margin-left: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: white;
+    gap: 30px;
+    padding: 50px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+}
+.settingsContent-left h2{
+    font-size: 24px;
+    color: #404141;
+    line-height: 32px;
+    font-weight: 500;
+}
+.settingsContent-left p{
+    font-size: 14px;
+    color: #6A6A6A;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+form div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+form div label{
+    font-size: 12px;
+    line-height: 16px;
+    color: #3E3E3E;
+}
+form div input{
+    font-size: 16px;
+    line-height: 21.6px;
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid #5B5B65;
+}
+form div input::placeholder{
+    color: #171717;
+    font-weight: 400;
+}
+.twoCol-row{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
 }

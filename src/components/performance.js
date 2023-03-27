@@ -2,6 +2,11 @@ import React from 'react'
 import Sidenav from './sideBar'
 import Navbar from './navBar'
 import { BsChevronRight} from 'react-icons/bs'
+import christian from '../images/christian.png'
+import amen from '../images/Amen.png'
+import emmanuel from '../images/Emmanuel.png'
+import somo from '../images/somo.png'
+import oscar from '../images/oscar.png'
 
 const employeePerformance = () =>{
     return(
@@ -44,13 +49,34 @@ const employeePerformance = () =>{
                             </div>
                             <div className='ratings-grid-content'>
                                 <div className='goalTitle'>
-                                    <p>Christian Apithy</p>
-                                    <p>Amen Dossou-Yovo</p>
-                                    <p>Emmanuel Sossou</p>
-                                    <p>Somogyi Adrián</p>
-                                    <p>Oscar Kossou</p>
-                                    <p>Oscar Kossou</p>
-                                    <p>Oscar Kossou</p>
+                                    <div>
+                                        <img src={christian}/>
+                                        <p>Christian Apithy</p>
+                                    </div>
+                                    <div>
+                                        <img src={amen}/>
+                                        <p>Amen Dossou-Yovo</p>
+                                    </div>
+                                    <div>
+                                        <img src={emmanuel}/>
+                                        <p>Emmanuel Sossou</p>
+                                    </div>
+                                    <div>
+                                        <img src={somo}/>
+                                        <p>Somogyi Adrián</p>
+                                    </div>
+                                    <div>
+                                        <img src={oscar}/>
+                                        <p>Oscar Kossou</p>
+                                    </div>
+                                    <div>
+                                        <img src={oscar}/>
+                                        <p>Oscar Kossou</p>
+                                    </div>
+                                    <div>
+                                        <img src={oscar}/>
+                                        <p>Oscar Kossou</p>
+                                    </div>
                                 </div>
                                 <div className='goalTitle'>
                                     <p>Excellent</p>

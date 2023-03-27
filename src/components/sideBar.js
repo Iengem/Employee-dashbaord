@@ -8,7 +8,7 @@ const Sidenav = () => {
         <div className='sidebar'>
             {sideBarData.map((item, key) =>{
                 return(
-                    <Link className='sidebarItem'k id={window.location.pathname === item.path ? 'selected' : ''} to={ item.path }>
+                    <Link className='sidebarItem' id={window.location.pathname === item.path ? 'selected' : ''} to={ item.path }>
                         {item.icon}<h2>{item.title}</h2>
                     </Link>
                 )
