@@ -41,13 +41,13 @@ const employeePerformance = () =>{
                             <h2>Employee Performance</h2>
                         </div>
                         <div className='ratingsGrid'>
-                            <div className='ratings-grid-header'>
+                            <div className='ratings-grid-header performance-gridHeader'>
                                 <h2>Employee Name</h2>
                                 <h2>Ratings</h2>
                                 <h2>Date & Time</h2>
                                 <h2>Feedback</h2>
                             </div>
-                            <div className='ratings-grid-content'>
+                            <div className='ratings-grid-content performance-gridContent'>
                                 <div className='goalTitle'>
                                     <div>
                                         <img src={christian}/>
@@ -91,7 +91,7 @@ const employeePerformance = () =>{
                                     <p>1 Jan 2023</p>
                                     <p>2 days ago</p>
                                     <p>2 days ago</p>
-                                    <p>02 Nov 2020</p>
+                                    <p>-</p>
                                     <p>-</p>
                                     <p>-</p>
                                     <p>-</p>
